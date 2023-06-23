@@ -54,7 +54,8 @@ def predict_outcomes(df):
     # individual did not have a child during 2020-2022, while '1' implies that
     # they did.
 
-    # Keep 
+    # Keep
+    
     keepcols = ['gebjaar', 'geslacht', 'leeftijd2019',
             'aantalhh2019','partner2019', 'sted2019', 'belbezig2019', 
             'nettoink2019', 'oplmet2019', 'herkomstgroep2019',
