@@ -143,7 +143,7 @@ def score(prediction_path, ground_truth_path, output):
         'f1_score': [f1_score]
     })
     metrics_df.to_csv(output, index=False)
-
+ 
 if __name__ == "__main__":
     args = parser.parse_args()
     if args.command == "predict":
