@@ -59,6 +59,7 @@ def predict_outcomes(df):
             'aantalhh2019','partner2019', 'sted2019', 'belbezig2019', 
             'nettoink2019', 'oplmet2019', 'herkomstgroep2019',
             'burgstat2019', 'leeftijd2019', 'woonvorm2019', 'oplmet2019', 'aantalki2019']
+    nomem_encr = df["nomem_encr"]
     df = df.loc[:, keepcols]
     
     # Load your trained model from the models directory
