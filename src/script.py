@@ -55,7 +55,6 @@ def predict_outcomes(df):
     # they did.
 
     # Keep
-    
     keepcols = ['gebjaar', 'geslacht', 'leeftijd2019',
             'aantalhh2019','partner2019', 'sted2019', 'belbezig2019', 
             'nettoink2019', 'oplmet2019', 'herkomstgroep2019',
