@@ -55,10 +55,15 @@ def predict_outcomes(df):
     # they did.
 
     # Keep
-    keepcols = ['gebjaar', 'geslacht', 'leeftijd2019',
-            'aantalhh2019','partner2019', 'sted2019', 'belbezig2019', 
-            'nettoink2019', 'oplmet2019', 'herkomstgroep2019',
-            'burgstat2019', 'woonvorm2019', 'aantalki2019']
+  keepcols = ['positie2019','positie2018', 'positie2017', 'gebjaar', 'geslacht','aantalhh2019', 'sted2019', 
+            'nettohh_f2019', 'oplmet2019', 'herkomstgroep2019','cf16i128', 'cf17j128', 'cf18k128', 'cf19l128','cf19l129',
+            'cf19l130', 'cf19l131','cf19l132','woning2019', 'woning2018', 
+            'cf19l456', 'cf19l457', 'cf19l458', 'cf19l459', 'cw19l522', 'cr19l143', 
+            'cf19l483', 'cf19l484', 'cf19l485', 'cf19l486', 'cf19l487', 'cf19l488',
+            'wave2008', 'wave2014', 'wave2019','aantalki2017','aantalki2018',
+            'partner2018','partner2019', 'belbezig2019','belbezig2018','ch19l178',
+            'cp19k118', 'cp19k021', 'cp19k056', 'cf19l028','cf16i129', 'cf17j129', 'cf18k129', 
+            'ch19l004', 'ch19l126']
     nomem_encr = df["nomem_encr"]
     df = df.loc[:, keepcols]
     
