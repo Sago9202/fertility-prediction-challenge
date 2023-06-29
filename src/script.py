@@ -55,7 +55,7 @@ def predict_outcomes(df):
     # they did.
 
     # Keep
-  keepcols = ['positie2019','positie2018', 'positie2017', 'gebjaar', 'geslacht','aantalhh2019', 'sted2019', 
+   keepcols = ['positie2019','positie2018', 'positie2017', 'gebjaar', 'geslacht','aantalhh2019', 'sted2019', 
             'nettohh_f2019', 'oplmet2019', 'herkomstgroep2019','cf16i128', 'cf17j128', 'cf18k128', 'cf19l128','cf19l129',
             'cf19l130', 'cf19l131','cf19l132','woning2019', 'woning2018', 
             'cf19l456', 'cf19l457', 'cf19l458', 'cf19l459', 'cw19l522', 'cr19l143', 
