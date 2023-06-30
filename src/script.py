@@ -64,7 +64,7 @@ def predict_outcomes(df):
             'wave2008', 'wave2014', 'wave2019','aantalki2017','aantalki2018',
             'partner2018','partner2019', 'belbezig2019','belbezig2018','ch19l178',
             'cp19k118', 'cp19k021', 'cp19k056', 'cf19l028','cf16i129', 'cf17j129', 'cf18k129', 
-            'ch19l004', 'ch19l126']
+            'ch19l004', 'ch19l126', 'ci19l380', 'cf19l029']
     nomem_encr = df["nomem_encr"]
     df = df.loc[:, keepcols]
     
